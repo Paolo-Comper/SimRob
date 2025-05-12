@@ -1,4 +1,2 @@
 
-namespace SimRob {
-
-}
+namespace SimRob {}
