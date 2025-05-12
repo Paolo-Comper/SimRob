@@ -1,9 +1,5 @@
-#ifndef UTILS_H
-#define UTILS_H
+#pragma once
 
-#define GLCall(x) \
-    GLClearError();\
-    x; \
-    GLLogCall();\
+#define DEBUG
 
-#endif // UTILS_H
+
