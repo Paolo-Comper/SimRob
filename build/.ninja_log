@@ -1,7 +1,0 @@
-# ninja log v5
-2	16	0	/home/paolo/Tutto/WorkSpace/SimRob/build/CMakeFiles/cmake.verify_globs	67f22af3af6955fd
-17	35	1747034215165903539	CMakeFiles/SimRob.dir/src/gui.cpp.o	8b62fc386c088d00
-17	40	1747034215169903798	CMakeFiles/SimRob.dir/src/robot.cpp.o	cc5378dd0a3177fe
-18	44	1747034215173904057	CMakeFiles/SimRob.dir/src/utils.cpp.o	ddd2c1bf8e4d138
-17	335	1747034215465922953	CMakeFiles/SimRob.dir/src/main.cpp.o	43ba8b1516dc4e75
-337	476	1747034215605932012	SimRob	fb8617e2e0cad5ea
