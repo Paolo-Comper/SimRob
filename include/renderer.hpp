@@ -6,17 +6,17 @@
 #include <array>
 #include <string>
 #include <GLFW/glfw3.h>
-#include "utils.hpp"
+#include "settings.hpp"
 
 void GLClearError();
-bool GLLogCall();
+bool GLLogCall(int row, const char* file);
 const char* GlErrorLog(unsigned int error);
 
-#ifdef DEBUG
+#if DEBUG
     #define GLCall(x) \
         GLClearError();\
         x; \
-        GLLogCall();
+        GLLogCall(__LINE__,__FILE__);
 #else
     #define GLCall(x)\
         x;
